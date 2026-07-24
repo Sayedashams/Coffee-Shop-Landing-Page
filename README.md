@@ -1,4 +1,4 @@
-☕ # Coffee-Shop-Landing-Page
+# Coffee-Shop-Landing-Page
 
 A responsive coffee shop landing page built using HTML and CSS. The project features a modern and visually appealing design with sections for the homepage, menu, about, and contact information. It focuses on clean layouts, responsive styling, and an engaging user interface.
 
