@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease-in-out;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    /* font-weight: 1000; */
+}
+
+button{
+    cursor: pointer;
+}
+
+#one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+
+h1 {
+    position: absolute;
+    left: 20px;
+    top: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#main-container {
+    height: 800px;
+    width: 100%;
+    position: relative;
+
+}
+
+#main-container>section:first-child {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/17633099/pexels-photo-17633099.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-container>section:nth-child(2) {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+#main-container>p:nth-child(3) {
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    top: 180px;
+    left: 560px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+
+}
+
+#main-container>p:nth-child(4) {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 60px;
+    left: 340px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 15px;
+    color: #ffffff;
+
+}
+
+#main-container>button:nth-child(5) {
+    position: absolute;
+    top: 230px;
+    left: 720px;
+    height: 30px;
+    width: 200;
+    color: #6a4a3b;
+    /* transition: all 0.3s ease; */
+}
+
+#main-container>button:nth-child(5):hover {
+    /* transform: scale(1.05); */
+    background-color: #7a5e5495;
+    color: white;
+}
+#m1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#box1 {
+    width: 100%;
+    height: 830px;
+    background-color: black;
+    background-image: url("./coffeeimg/Screenshot\ 2025-09-21\ 225105.png");
+    background-repeat: no-repeat;
+    background-size: 100% 830px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+
+}
+
+#m1>#box1>p:first-child {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+#m1>#box1>section:nth-child(2) {
+    height: 300px;
+    width: 300px;
+    /* background-color: black; */
+    position: relative;
+    bottom: 100px;
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coffee-item-2.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    
+
+}
+
+#m1>#box1>section:nth-child(3) {
+    height: 300px;
+    width: 300px;
+    /* background-color: black; */
+    position: relative;
+    bottom: 100px;
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coffee-item-1.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+#m1>#box1>section:nth-child(4) {
+    height: 300px;
+    width: 300px;
+    /* background-color: black; */
+    position: relative;
+    bottom: 100px;
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coffee-item-3.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+#m1>#box1>section{
+    transition: transform 0.3s ease;
+}
+#m1>#box1>section:hover{
+    transform: scale(1.08);
+}
+
+#m1>p:nth-child(2){
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 555;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    letter-spacing: 3px;
+}
+#m1>p:nth-child(3){
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 555;
+     position: absolute;
+    bottom: 50px;
+    left: 680px;
+    letter-spacing: 3px;
+}
+#m1>p:nth-child(4){
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 555;
+     position: absolute;
+    bottom: 50px;
+    left: 1145px;
+    letter-spacing: 3px;
+}
+
+#m2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    height: 750px;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/1724194/pexels-photo-1724194.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+    position: relative;
+}
+#box2>p:first-child{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 100px;
+    right: 90px;
+}
+
+#box2>img:nth-child(2){
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 220px;
+    right: 550px;   
+}
+#box2>img:nth-child(3){
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 220px;
+    right: 350px;  
+}
+#box2>img:nth-child(4){
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 220px;
+    right: 150px;  
+}
+#box2>p:nth-child(5){
+    font-size: 17px;
+    color: #E1B326;
+    position: absolute;
+    top: 320px;
+    right: 530px;
+     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2>p:nth-child(6){
+    font-size: 17px;
+    color: #E1B326;
+    position: absolute;
+    top: 320px;
+    right: 310px;
+     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2>p:nth-child(7){
+    font-size: 17px;
+    color: #E1B326;
+    position: absolute;
+    top: 320px;
+    right: 110px;
+     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2>p:nth-child(8){
+    width: 35%;
+    font-size: 16px;
+    color: #E1B326;
+    position: absolute;
+    top: 400px;
+    right: 110px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#box2>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #b99021;
+    position: absolute;
+    top: 550px;
+    right: 330px;
+    font-size: 10px;
+}
+#box2>button:hover{
+    background-color: rgb(135, 97, 0);
+    transform: scale(1.05);
+}
+
+#m3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box3{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box3>section{
+    height: 500px;
+    width: 33.3%;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+#box3>section:nth-child(1){
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/gallery-coffee-image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+#box3>section:nth-child(2){
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/gallery-coffee-image-2-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+#box3>section:nth-child(3){
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/gallery-coffee-image-5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+#m4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#m4>div{
+    height: 50px;
+    width: 100%;
+    /* background-color: white; */
+    position: absolute;
+    top: 2950px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-image: linear-gradient(white, rgba(54, 24, 4, 0.7)); */
+    background-color: #ffffff;
+    box-shadow: 10px -11px 10px rgba(0, 0, 0, 0.355);
+}
+#m4>div>li{
+    color: #461e00;
+    font-size: 30px;
+    list-style: none;
+}
